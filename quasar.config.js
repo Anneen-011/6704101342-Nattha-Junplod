@@ -59,7 +59,7 @@ export default defineConfig((/* ctx */) => {
 
       // extendViteConf (viteConf) {},
       // viteVuePluginOptions: {},
-      
+
       // vitePlugins: [
       //   [ 'package-name', { ..pluginOptions.. }, { server: true, client: true } ]
       // ]
@@ -70,6 +70,9 @@ export default defineConfig((/* ctx */) => {
       // https: true,
       open: true // opens browser window automatically
     },
+    htmlVariables: {
+    title: '6704101342 Nattha Junplod App'
+   },
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#framework
     framework: {
